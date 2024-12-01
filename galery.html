@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="galery.css">
+    <title>Galery</title>
+    <style>
+        .galery .container {
+            max-width: 1200px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .galery h2 {
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .carousel-item img {
+            width: 50%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .carousel-caption {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .carousel-caption h5 {
+            margin: 0;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <section class="menu">
+        <div class="nav">
+            <div class="logo"><h1>Food<b>io</b></h1></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="services.html">Service</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a class="active" href="#">Galery</a></li>
+            </ul>
+            <div>
+                <a href="signin.html" class="signin">Sign In</a>
+                <a href="signup.html" class="signup">Sign Up</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="galery">
+        <div class="container">
+            <h2>Our Restaurant Gallery</h2>
+            <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="food1.jpg" class="d-block w-100" alt="Food 1">
+                        <div class="carousel-caption">
+                            <h5>Delicious Dish 1</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="food2.jpg" class="d-block w-100" alt="Food 2">
+                        <div class="carousel-caption">
+                            <h5>Delicious Dish 2</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="food3.jpg" class="d-block w-100" alt="Food 3">
+                        <div class="carousel-caption">
+                            <h5>Delicious Dish 3</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="food4.jpg" class="d-block w-100" alt="Food 4">
+                        <div class="carousel-caption">
+                            <h5>Delicious Dish 4</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="food5.jpg" class="d-block w-100" alt="Food 5">
+                        <div class="carousel-caption">
+                            <h5>Delicious Dish 5</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="food6.jpg" class="d-block w-100" alt="Food 6">
+                        <div class="carousel-caption">
+                            <h5>Delicious Dish 6</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="food7.jpg" class="d-block w-100" alt="Food 7">
+                        <div class="carousel-caption">
+                            <h5>Delicious Dish 7</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="food8.jpg" class="d-block w-100" alt="Food 8">
+                        <div class="carousel-caption">
+                            <h5>Delicious Dish 8</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="food9.jpg" class="d-block w-100" alt="Food 9">
+                        <div class="carousel-caption">
+                            <h5>Delicious Dish 9</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="food10.jpg" class="d-block w-100" alt="Food 10">
+                        <div class="carousel-caption">
+                            <h5>Delicious Dish 10</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="food11.jpg" class="d-block w-100" alt="Food 11">
+                        <div class="carousel-caption">
+                            <h5>Delicious Dish 11</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="food12.jpg" class="d-block w-100" alt="Food 12">
+                        <div class="carousel-caption">
+                            <h5>Delicious Dish 12</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="food13.jpg" class="d-block w-100" alt="Food 13">
+                        <div class="carousel-caption">
+                            <h5>Delicious Dish 13</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="food14.jpg" class="d-block w-100" alt="Food 14">
+                        <div class="carousel-caption">
+                            <h5>Delicious Dish 14</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="food15.jpg" class="d-block w-100" alt="Food 15">
+                        <div class="carousel-caption">
+                            <h5>Delicious Dish 15</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="food16.jpg" class="d-block w-100" alt="Food 16">
+                        <div class="carousel-caption">
+                            <h5>Delicious Dish 16</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Kontrol navigasi -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Menambahkan animasi transisi otomatis untuk carousel
+        document.addEventListener('DOMContentLoaded', function() {
+            const carousel = new bootstrap.Carousel('#galleryCarousel', {
+                interval: 3000, // Slide akan berganti setiap 3 detik
+                ride: 'carousel'
+            });
+        });
+    </script>
+</body>
+</html>

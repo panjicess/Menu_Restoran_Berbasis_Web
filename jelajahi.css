@@ -1,0 +1,154 @@
+*,::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 100px;
+    background-image: linear-gradient(to bottom, #ede4e2, #FFC107, #d0bf94);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+  }
+  
+  .nav .logo hi {
+    font-weight: 600;
+    font-family: sans-serif;
+    color: black;
+  }
+  
+  .nav .logo b {
+    color: indianred;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav ul li {
+    margin-right: 30px;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px;
+  }
+  
+  .nav ul .active::after {
+    content: '';
+    width: 50%;
+    height: 3px;
+    background-color: coral;
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+  }
+/* Style untuk tombol Sign In dan Sign Up */
+.signin, .signup {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 5px;
+  border: none;
+}
+
+.signin {
+  background-color: orange;
+  color: white;
+}
+
+.signup {
+  background-color: white;
+  color: orange;
+  border: 2px solid orange;
+}
+
+.signin:hover, .signup:hover {
+  opacity: 0.8;
+}
+
+  
+  input {
+    padding: 10px 20px;
+    font-weight: 600;
+  }
+  
+
+  .menu-content {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .menu-content h1 {
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .menu-card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transfrom 0.5s ease;
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: left;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .menu-card h2 {
+    font-size: 24px;
+    margin: 20px;
+    color: #000000;
+    text-align: center;
+  }
+  
+  .menu-card p {
+    margin: 0 20px 20px;
+    color: #666;
+    text-align: justify;
+  }
+  
+  .menu-card .btn {
+    display: block;
+    width: calc(100% - 40px);
+    margin: 0 20px 20px;
+    padding: 10px;
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-card .btn:hover {
+    background-color: #333;
+  }
